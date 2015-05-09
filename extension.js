@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "qwalifyd";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -61,7 +61,7 @@
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/qwalifyd/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -108,12 +108,12 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/qwalifyd/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/qwalifyd/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/qwalifyd/basicBot/master/basicBot.js", extend);
 
 }).call(this);
